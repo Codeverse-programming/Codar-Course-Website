@@ -83,16 +83,16 @@
 //     });
 // });
 
-// window.addEventListener("scroll", () => {
-//     const header = document.getElementById("header");
-//     if (window.scrollY > 50) {
-//         header.classList.add("bg-white", "shadow-lg");
-//         header.classList.remove("bg-transparent");
-//     } else {
-//         header.classList.remove("bg-white", "shadow-lg");
-//         header.classList.add("bg-transparent");
-//     }
-// });
+window.addEventListener("scroll", () => {
+    const header = document.getElementById("header");
+    if (window.scrollY > 50) {
+        header.classList.add("bg-white", "shadow-lg");
+        header.classList.remove("bg-transparent");
+    } else {
+        header.classList.remove("bg-white", "shadow-lg");
+        header.classList.add("bg-transparent");
+    }
+});
 window.addEventListener("scroll", () => {
     const header = document.getElementById("arrow");
     if (window.scrollY > 50) {

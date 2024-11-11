@@ -1838,6 +1838,14 @@ input:checked + .toggle-bg{
   padding-top: 9rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
 .text-center{
   text-align: center;
 }
