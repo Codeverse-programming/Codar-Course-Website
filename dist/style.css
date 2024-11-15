@@ -1208,14 +1208,6 @@ input:checked + .toggle-bg{
   margin-top: 1.75rem;
 }
 
-.mt-24{
-  margin-top: 6rem;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
-}
-
 .block{
   display: block;
 }
@@ -1423,10 +1415,6 @@ input:checked + .toggle-bg{
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col{
   flex-direction: column;
 }
@@ -1495,16 +1483,8 @@ input:checked + .toggle-bg{
   overflow: hidden;
 }
 
-.overflow-visible{
-  overflow: visible;
-}
-
 .overflow-x-auto{
   overflow-x: auto;
-}
-
-.overflow-x-visible{
-  overflow-x: visible;
 }
 
 .overflow-y-visible{
@@ -1579,11 +1559,6 @@ input:checked + .toggle-bg{
 
 .border-t-2{
   border-top-width: 2px;
-}
-
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-blue-600{
@@ -1733,11 +1708,6 @@ input:checked + .toggle-bg{
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-yellow-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 202 21 / var(--tw-bg-opacity));
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1834,6 +1804,10 @@ input:checked + .toggle-bg{
   padding-bottom: 4rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .pt-16{
   padding-top: 4rem;
 }
@@ -1842,20 +1816,12 @@ input:checked + .toggle-bg{
   padding-top: 0.5rem;
 }
 
-.pt-24{
-  padding-top: 6rem;
-}
-
-.pt-36{
-  padding-top: 9rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
 .pt-20{
   padding-top: 5rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
 }
 
 .text-center{
@@ -2384,10 +2350,6 @@ nav #burger:checked~ul {
     width: 35rem;
   }
 
-  .md\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2421,6 +2383,11 @@ nav #burger:checked~ul {
     padding: 1.25rem;
   }
 
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -2436,12 +2403,22 @@ nav #burger:checked~ul {
     padding-bottom: 0.5rem;
   }
 
+  .md\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:pb-4{
     padding-bottom: 1rem;
   }
 
   .md\:pt-36{
     padding-top: 9rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-lg{
@@ -2454,31 +2431,10 @@ nav #burger:checked~ul {
     line-height: 1.25rem;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:shadow-xl{
     --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .md\:selection\:gap-5 *::-moz-selection{
-    gap: 1.25rem;
-  }
-
-  .md\:selection\:gap-5 *::selection{
-    gap: 1.25rem;
-  }
-
-  .md\:selection\:gap-5::-moz-selection{
-    gap: 1.25rem;
-  }
-
-  .md\:selection\:gap-5::selection{
-    gap: 1.25rem;
   }
 }
 
@@ -2509,10 +2465,6 @@ nav #burger:checked~ul {
 
   .lg\:block{
     display: block;
-  }
-
-  .lg\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-2{
@@ -2554,14 +2506,6 @@ nav #burger:checked~ul {
 
   .lg\:leading-\[1\.4\]{
     line-height: 1.4;
-  }
-
-  .lg\:marker\:pt-24 *::marker{
-    padding-top: 6rem;
-  }
-
-  .lg\:marker\:pt-24::marker{
-    padding-top: 6rem;
   }
 }
 
